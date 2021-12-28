@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    font-family: "Josefin Sans";
+}
+
+header i{
+    color: white;
+    font-size: 18px;
+}
+
+.navbar .nav-item .dropdown-menu{ 
+    display: none; 
+}
+.navbar{
+    font-size: 14px;
+}
+
+.navbar .nav-item:hover .dropdown-menu{ 
+    display: block; 
+}
+.navsticky{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow:  0 4px 10px -2px rgb(66, 66, 66);
+    background-color: white;
+}
+.navsticky li{
+    padding: 5px;
+}
+
+.carousel-indicators{
+    display: block;
+   
+    top: 50%;
+    left: 80%;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+}
+
+.content{
+    box-shadow:  0 2px 5px 4px #d8d8d8;
+    font-size: 14px;
+}
+
+.contenthov:hover{
+    color: rgb(37, 37, 253);
+}
+
+.sectiontitle::before{
+    width: 90px;
+    height: 2px;
+    background-color: #0c65ed;
+    position: absolute;
+    content: "";
+    justify-content: start;
+    margin-left: -145px;
+    margin-top: 2.5%;
+}
+
+.sectiontitle span::before{
+    width: 70px;
+    height: 2px;
+    background-color: #0c65ed;
+    position: absolute;
+    content: "";
+    justify-content: start;
+    margin-left: -125px;
+    margin-top: 2%;
+}
+
+.sectiontitle::after{
+    width: 90px;
+    height: 2px;
+    background-color: #0c65ed;
+    position: absolute;
+    content: "";
+    justify-content: center;
+    margin-left: 45px;
+    margin-top: 2.5%;
+}
+
+.sectiontitle span::after{
+    width: 70px;
+    height: 2px;
+    background-color: #0c65ed;
+    position: absolute;
+    content: "";
+    justify-content: center;
+    margin-left: 45px;
+    margin-top: 2%;
+}
+
+.sectiontitle2::before{
+    width: 60px;
+    height: 2px;
+    background-color: #0c65ed;
+    position: absolute;
+    content: "";
+    justify-content: center;
+    margin-left: -100px;
+    margin-top: 2.5%;
+}
+
+.sectiontitle2 span::before{
+    width: 50px;
+    height: 2px;
+    background-color: #0c65ed;
+    position: absolute;
+    content: "";
+    justify-content: center;
+    margin-left: -90px;
+    margin-top: 2%;
+}
+
+.sectiontitle2::after{
+    width: 60px;
+    height: 2px;
+    background-color: #0c65ed;
+    position: absolute;
+    content: "";
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 2.5%;
+}
+
+.sectiontitle2 span::after{
+    width: 50px;
+    height: 2px;
+    background-color: #0c65ed;
+    position: absolute;
+    content: "";
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 2%;
+}
+.servicesec{
+    background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(./images/service-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: black;
+
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: blue;
+}
+
+.servicecontent{
+    
+    position: relative;
+    background-color: transparent;
+    overflow: hidden;
+}
+.servicehov{
+    background-color: white;
+    transition: 1s;
+    color: black;
+    position: absolute;
+    top: 100%;
+    
+    
+}
+.servicecontent:hover .servicehov{
+    top: 0%;
+    
+}
+.arrowleft , .arrowright{
+    width: 50px;
+    height: 30px;
+}
+.workcontent{
+    overflow: hidden;
+}
+
+.txthor{
+    transform: scaleX(0);
+    position: absolute;
+    background-color: #0c66eda6;
+    color: white;
+    transition: .3s;
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+    top: 70%;
+    border-radius: 10px;
+}
+
+.workcontent:hover .txthor{
+    transform: scaleX(1);
+}
+
+.workcontent:hover img{
+    box-shadow:  0 2px 15px 4px #d8d8d8;
+}
+
+
+.icons a{
+    color: white;
+}
+
+.navbtn{
+    border-radius: 50px 0px 0px 50px !important;
+}
+.navbtn2{
+    border-radius: 0px 50px 50px 0px !important;
+    
+}
+
+
+
+.teamcontent{
+    overflow: hidden;
+}
+.teamtxt{
+    top: 80%;
+    transition: 1s;
+    box-shadow: 0 2px 10px 4px #eeeded;
+}
+
+.teamcontent:hover .teamtxt{
+    top: 36%;
+}
+
+.btn-group{
+    width: 30%;
+}
+
+.iconsocial a{
+    display: block;
+    padding: 8px;
+    
+}
+
+.inner{
+    overflow: hidden;
+    
+}
+.card2:hover img{
+    transform: scale(1.1) rotate(-2deg);
+}
+
+.card2:hover h5{
+    color: #0C65ED;
+}
+
+.card2:hover .iconsocial{
+    background-color: #0C65ED!important;
+}
+
+.progress-bar{
+    transition: .5s;
+}
+.card2:hover .progress-bar{
+    width: 100%!important;
+}
+
+
+.card2 a{
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+}
+
+.btnsfooter button:hover{
+    background-color: #0C65ED!important;
+    color: white;
+}
+
+.btnsfooter button{
+    font-size: 14px;
+    transition: .3s;
+    height: 30px;
+}

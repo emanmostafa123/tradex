@@ -1,0 +1,60 @@
+
+
+
+
+/********** Max Width ***************/
+/* 0px  : 768px */
+@media screen and (max-width : 768px){
+    .card{
+        width: 60%;
+    }
+    /* .d-flex{
+        flex-direction: column;
+    } */
+}
+
+/* 0px : 576px */
+@media screen and (max-width:576px) {
+    /* .d-flex{
+        flex-direction: column;
+    } */
+    .card{
+        width: 40%;
+    }
+}
+
+/* 0px : 360px */
+@media screen and (max-width:360px){
+    /* .d-flex{
+        flex-direction: column;
+    } */
+    .card{
+     width: 100%;
+     margin-top: 2%;
+    }
+}
+
+
+/********** Min Width ***************/
+
+/* 992px : up to */
+@media screen and (min-width : 992px){
+    .card{
+        background-color: lightgreen;
+    }
+}
+
+
+/********** Range Width ***************/
+
+
+/* range ==> 768px : 992px */
+@media (min-width: 768px) and (max-width:992px){
+    .card{
+        background-color: maroon;
+        font-size: 30px;
+        width: 100%;
+        color: white;
+    }
+}
+

@@ -1,0 +1,79 @@
+@media screen and (max-width:992px) {
+    
+
+    .topnav{
+        display: none;
+    }
+    
+    .carousel-caption{
+        top: 15%!important;
+        
+    }
+    .carousel-caption p{
+        margin: 0%!important;
+        font-size: 14px!important;
+    }
+    .carouselbtns{
+        margin: 0%!important;
+
+    }
+
+    .carousel-item .btn{
+        font-size: 14px!important;
+        margin: 2px!important;
+    }
+    .carousel-indicators{
+        display: flex;
+        top: 85%;
+        left: 0;
+    }
+
+    .imgcontent1 img{
+        width: 90%;
+    }
+    .abouttext{
+        display: block!important;
+        position: static;
+    }
+    .content{
+        position: static!important;
+        width: 100%!important;
+       margin-bottom: 20%;
+    }
+    .txthor{
+        
+        width: 80%;
+        
+    }
+    .teamcontent:hover .teamtxt{
+        top: 42%;
+    }
+    .subscribesection{
+        display: block!important;
+    }
+    .subscribesection input{
+        width: 100%!important;
+        margin-bottom: 5%;
+    }
+    .card2{
+        margin-bottom: 5%;
+    }
+
+    .clientimg{
+        display: none;
+    }
+
+    .Purchasesec{
+        display: block!important;
+    }
+    .Purchasesec p{
+        width: 100%!important;
+    }
+    .Purchasesec button{
+        width: 100%!important;
+    }
+    .servicecontent:hover .servicehov{
+        height: 120%;
+        
+    }
+}
